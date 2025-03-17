@@ -20,7 +20,7 @@ function MovieList({ genreId }:any) {
         <div className='flex overflow-x-auto w-full px-16 py-4 scroll-smooth hide-scrollbar snap-x snap-mandatory'>
             {trendingList?.map((movie: any) => {
                 return (
-                    <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt="" className='min-w-[18%]  md:h-[230px] object-stretch
+                    <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt="" className='min-w-[20%]  md:h-[230px] object-stretch
                     object-left-top mr-5 rounded-md hover:border-[4px]
                     border-gray-400 transition-all duration-100 ease-in'/>
                 )
