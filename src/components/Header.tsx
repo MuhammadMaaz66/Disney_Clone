@@ -52,7 +52,7 @@ function Header() {
                 </div>
                 <div className='md:hidden mt-5' onClick={()=> setShowMenu(!showMenu)}>
                     <HeaderItem name={""} Icon={HiDotsVertical} />
-                    {showMenu && <div className='absolute mt-3 bg-[#121212] border-[1px] p-3 border-gray-700 px-5 py-4'>
+                    {showMenu && <div className='absolute mt-3 bg-[#121212] border-[1px] p-3 border-gray-700 px-5 py-4 right-10'>
                         {menu.map((item, index) => {
                             return (
                                 index > 2 && <HeaderItem name={item?.name} Icon={item.icon} />
